@@ -1,8 +1,6 @@
-module Lib where
+module Week2.Solution where
 
-import Week1.Solution
 import Week2.Log
-
 
 parseMessage :: String -> LogMessage
 parseMessage msg =
@@ -44,7 +42,3 @@ whatWentWrong ms = map msg $ filter important sorted
         important _ = False
         msg (LogMessage _ _ m) = m
         msg (Unknown _) = ""
-
-
-someFunc :: IO ()
-someFunc = putStrLn ("E 2 562 help help")

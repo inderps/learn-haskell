@@ -1,6 +1,4 @@
-module Week1 where
-
-
+module Week1.Solution where
 
 toDigits :: Integer -> [Integer]
 toDigits 0 = []
